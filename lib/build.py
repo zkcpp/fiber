@@ -12,13 +12,3 @@ cpp_library(
          ]
 )
 
-
-cpp_binary(
-  name = 'reference_counter_test',
-  srcs = [
-           'ReferenceCounterTest.cpp',
-         ],
-  deps = [
-           'fiber:libfiber.a',
-         ],
-)
